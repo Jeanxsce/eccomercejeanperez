@@ -1,0 +1,18 @@
+.containerOfBuy {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.incrementButton {
+    display: flex;
+    justify-content: center;
+}
+
+.Number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,58 @@
+body {
+    background-color: #E7CFBC;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #EEC170;
+    color: #000;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.tittleMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+
+.cart {
+    width: 20px;
+}
+
+.containerCart {
+    display: inline-block;
+
+}
+
+
+.buttons {
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    margin: 0 35px 0 35px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #A9E4EF;
+    cursor: pointer;
+    transition: border-color 0.25s;
+
+}
+
+button:hover {
+    border-color: #62466B;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

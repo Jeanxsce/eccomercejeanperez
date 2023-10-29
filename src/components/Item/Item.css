@@ -1,0 +1,30 @@
+.CardItem {
+    display: flex;
+    justify-content: center;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+}
+
+.ItemHeader{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ItemImg{
+    display: flex;
+    justify-content: center;
+}
+
+.Info{
+    display: flex;
+    justify-content: center;
+}
+
+.Option{
+    display: flex;
+    justify-content: center;
+}

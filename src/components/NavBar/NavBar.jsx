@@ -1,19 +1,22 @@
 import CartWidget from "./CartWidget/CartWidget"
+import 'bootstrap/dist/css/bootstrap.css'
+import './styles/NavBar.css'
 
-
-
-const NavBar = () =>{
+const NavBar = () => {
     return (
-        <nav>
-            <h3>Eccomerce JeanPerez</h3>
-            <div>
-                <button>Mesas</button>
-                <button>Sillas</button>
-                <button>Lamparas</button>
-            </div>
+        
+        <div className="container">
+            <nav>
+                <h3>Eccomerce Jean Perez</h3>
+                <div >
+                    <button className="buttons">Mesas</button>
+                    <button className="buttons">Sillas</button>
+                    <button className="buttons">Lamparas</button>
 
-            <CartWidget />
-        </nav>
+                    <CartWidget />
+                </div>
+            </nav>
+        </div>
     )
 }
 
