@@ -1,30 +1,31 @@
-.CardItem {
-    display: flex;
-    justify-content: center;
-}
-
-.Header {
-    display: flex;
-    justify-content: center;
-}
-
-.ItemHeader{
-    display: flex;
-    justify-content: center;
+.CardItem{
+    
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
-.ItemImg{
-    display: flex;
-    justify-content: center;
+
+.ItemImg{ 
+    width: 200px;
 }
 
-.Info{
+.Info {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
-.Option{
-    display: flex;
-    justify-content: center;
+.Info:hover {
+    color: lightseagreen;
+}
+
+.Option:hover{
+    background-color: lightgreen;
 }

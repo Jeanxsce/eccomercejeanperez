@@ -4,12 +4,12 @@ const products = [
         name: 'Mesa generica',
         price: 1500,
         category: 'mesas',
-        img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tooltyp.com%2F8-beneficios-de-usar-imagenes-en-nuestros-sitios-web%2F&psig=AOvVaw3iplzqzv_jnQtpzXNI8H1s&ust=1698620584891000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDc9PfsmYIDFQAAAAAdAAAAABAEg',
+        img: 'https://f.fcdn.app/imgs/dcc027/www.nyr.com.uy/nyruy/9fbe/original/catalogo/MB-MESACOMEDOR-RINNOCH_AMD_1/2000-2000/mesa-de-comedor-rinno-chica-140-almendra.jpg',
         stock: 20,
         description: 'Descripcion de Mesa Generica'
     },
-    { id: '2', name: 'Silla Generica', price: 1000, category: 'sillas', img: '/assets.chair.jpg', stock: '15', description: 'Descripcion de Silla Generica'},
-    { id: '3', name: 'Lampara Generica', price: 1200, category: 'Lampara', img: '/assets.lamp.jpg', stock: '12', description: 'Descripcion de Lampara Generica'},
+    { id: '2', name: 'Silla Generica', price: 1000, category: 'sillas', img: 'https://f.fcdn.app/imgs/dd8ab1/www.divino.com.uy/div/5fa8/original/catalogo/247467001_0/1500-1500/silla-de-comedor-madera-natural-beige-thonet.jpg', stock: '15', description: 'Descripcion de Silla Generica'},
+    { id: '3', name: 'Lampara Generica', price: 1200, category: 'Lampara', img: 'https://www.tulampara.es/media/product/132599/354x354/toleda-lampara-colgante-h3569160-0.jpg', stock: '12', description: 'Descripcion de Lampara Generica'},
 ]
 
 export const getProducts = () => {
@@ -18,4 +18,17 @@ export const getProducts = () => {
             resolve(products)
         }, 500)
     })
+}
+
+export const getProductById = (productId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+        resolve(products.find(prod => prod.id === productId)) 
+        }, 500)
+    })
+}
+
+export const getProductsByCategory = (category) => {
+    console.log('aka murio')
+
 }
