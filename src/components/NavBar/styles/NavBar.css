@@ -47,7 +47,7 @@ h3 {
     transition: border-color 0.25s;
 }
 
-button:hover {
+.buttons:hover {
     border-color: #62466B;
 }
 

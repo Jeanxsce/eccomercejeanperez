@@ -12,9 +12,9 @@ const NavBar = () => {
                     <h3 className="tittleMain">Eccomerce Jean Perez</h3>
                 </Link>
                 <div >
-                    <NavLink to={`category/Mesas`} className= {({ isActive }) => isActive ? 'ActiveOption' : 'Option' }>Mesas</NavLink>
-                    <NavLink to={`category/Sillas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Sillas</NavLink>
-                    <NavLink to={`category/lamparas`} className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Lamparas</NavLink>
+                    <NavLink to={`category/Mesas`} className= {({ isActive }) => isActive ? 'buttons' : 'buttons' }>Mesas</NavLink>
+                    <NavLink to={`category/Sillas`} className={({ isActive }) => isActive ? 'buttons' : 'buttons'}>Sillas</NavLink>
+                    <NavLink to={`category/lamparas`} className={({ isActive }) => isActive ? 'buttons' : 'buttons'}>Lamparas</NavLink>
                     <CartWidget />
                 </div>
             </nav>
